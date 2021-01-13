@@ -31,7 +31,7 @@ public class PessoaFisica extends Contribuinte{
 
 	@Override
 	public Double taxesPaid() {
-		return 0.0;
+		return (rendaAnual * 0.25) - (health * 0.50) ;
 	}
 
 }

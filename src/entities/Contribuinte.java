@@ -3,7 +3,7 @@ package entities;
 public abstract class Contribuinte {
 
 	private String name;
-	private Double rendaAnual;
+	protected Double rendaAnual;
 	
 	public Contribuinte() {
 	}
