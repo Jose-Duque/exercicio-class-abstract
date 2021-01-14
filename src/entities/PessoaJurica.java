@@ -27,8 +27,11 @@ public class PessoaJurica extends Contribuinte{
 
 	@Override
 	public Double taxesPaid() {
-		// TODO Auto-generated method stub
-		return null;
+		
+		if(employee < 10) {
+			return rendaAnual+= rendaAnual * 0.16;
+		}
+		return rendaAnual * 0.14;
 	}
 
 }
